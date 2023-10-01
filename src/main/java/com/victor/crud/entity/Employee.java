@@ -8,11 +8,11 @@ public class Employee {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer emp0loyeeId;
+    private Integer employeeId;
     private String employeeName;
-    private String employeeContactNumer;
+    private String employeeContactNumber;
     private String employeeAddress;
-    private String employeedGender;
+    private String employeeGender;
     private String employeeDepartment;
     private String employeeSkills;
 
@@ -20,12 +20,12 @@ public class Employee {
 
     }
 
-    public Integer getEmp0loyeeId() {
-        return emp0loyeeId;
+    public Integer getEmployeeId() {
+        return employeeId;
     }
 
-    public void setEmp0loyeeId(Integer emp0loyeeId) {
-        this.emp0loyeeId = emp0loyeeId;
+    public void setEmployeeId(Integer employeeId) {
+        this.employeeId = employeeId;
     }
 
     public String getEmployeeName() {
@@ -36,12 +36,13 @@ public class Employee {
         this.employeeName = employeeName;
     }
 
-    public String getEmployeeContactNumer() {
-        return employeeContactNumer;
+
+    public String getEmployeeContactNumber() {
+        return employeeContactNumber;
     }
 
-    public void setEmployeeContactNumer(String employeeContactNumer) {
-        this.employeeContactNumer = employeeContactNumer;
+    public void setEmployeeContactNumber(String employeeContactNumber) {
+        this.employeeContactNumber = employeeContactNumber;
     }
 
     public String getEmployeeAddress() {
@@ -52,12 +53,12 @@ public class Employee {
         this.employeeAddress = employeeAddress;
     }
 
-    public String getEmployeedGender() {
-        return employeedGender;
+    public String getEmployeeGender() {
+        return employeeGender;
     }
 
-    public void setEmployeedGender(String employeedGender) {
-        this.employeedGender = employeedGender;
+    public void setEmployeeGender(String employeeGender) {
+        this.employeeGender = employeeGender;
     }
 
     public String getEmployeeDepartment() {
