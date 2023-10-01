@@ -28,4 +28,8 @@ public class EmployeeService {
         return employeeDao.findById(employeeId).orElseThrow();
     }
 
+    public void deleteEmployee(Integer employeeId){
+        employeeDao.deleteById(employeeId);
+    }
+
 }
